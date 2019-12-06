@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialModelRebuild", "SocialModelRebuild.csproj", "{031285C7-A8BE-45FB-BD9A-7B2256229EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{031285C7-A8BE-45FB-BD9A-7B2256229EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031285C7-A8BE-45FB-BD9A-7B2256229EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031285C7-A8BE-45FB-BD9A-7B2256229EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031285C7-A8BE-45FB-BD9A-7B2256229EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FAB814F-7ADA-433F-A60A-95D31323E43F}
+	EndGlobalSection
+EndGlobal

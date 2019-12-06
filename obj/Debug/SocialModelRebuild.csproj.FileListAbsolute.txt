@@ -1,0 +1,32 @@
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\bin\Debug\SocialModelRebuild.exe.config
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\bin\Debug\SocialModelRebuild.exe
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\bin\Debug\SocialModelRebuild.pdb
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\obj\Debug\SocialModelRebuild.csprojAssemblyReference.cache
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\obj\Debug\SocialModelRebuild.Properties.Resources.resources
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\obj\Debug\SocialModelRebuild.csproj.GenerateResource.cache
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\obj\Debug\SocialModelRebuild.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\obj\Debug\SocialModelRebuild.exe
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\obj\Debug\SocialModelRebuild.pdb
+C:\Users\Сергей\Documents\Visual Studio 2017\Projects\SocialModelRebuild\SocialModelRebuild\obj\Debug\SocialModelRebuild.FormMain.resources
+C:\Users\sukhov\Desktop\SocialModelRebuild\bin\Debug\SocialModelRebuild.exe.config
+C:\Users\sukhov\Desktop\SocialModelRebuild\bin\Debug\SocialModelRebuild.exe
+C:\Users\sukhov\Desktop\SocialModelRebuild\bin\Debug\SocialModelRebuild.pdb
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.csprojAssemblyReference.cache
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.FormMain.resources
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.Properties.Resources.resources
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.csproj.GenerateResource.cache
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.csproj.CoreCompileInputs.cache
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.exe
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.pdb
+C:\Users\Сергей\Desktop\SocialModelRebuild\bin\Debug\SocialModelRebuild.exe.config
+C:\Users\Сергей\Desktop\SocialModelRebuild\bin\Debug\SocialModelRebuild.exe
+C:\Users\Сергей\Desktop\SocialModelRebuild\bin\Debug\SocialModelRebuild.pdb
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.csprojAssemblyReference.cache
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.FormMain.resources
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.Properties.Resources.resources
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.exe
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.pdb
+C:\Users\Сергей\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.FormGraph.resources
+C:\Users\sukhov\Desktop\SocialModelRebuild\obj\Debug\SocialModelRebuild.FormGraph.resources
