@@ -43,6 +43,11 @@ namespace SocialModelRebuild
             
         }
 
+        public void SetNewCellModel(CellModel cellModel)
+        {
+            this.cellModel = cellModel;
+        }
+
         private void timerDraw_Tick(object sender, EventArgs e)
         {
             this.pictureBox1.Image = this.drawGraphEngine.DrawCellModelGraph(this.cellModel, this.pictureBox1.Width, this.pictureBox1.Height);
