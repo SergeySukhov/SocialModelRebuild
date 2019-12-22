@@ -51,6 +51,7 @@
             this.buttonToIteration = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxIteration = new System.Windows.Forms.TextBox();
+            this.buttonReduct = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -124,6 +125,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.buttonReduct);
             this.panel1.Controls.Add(this.buttonLoad);
             this.panel1.Controls.Add(this.buttonSave);
             this.panel1.Controls.Add(this.buttonReset);
@@ -270,6 +272,17 @@
             this.textBoxIteration.Size = new System.Drawing.Size(109, 22);
             this.textBoxIteration.TabIndex = 0;
             // 
+            // buttonReduct
+            // 
+            this.buttonReduct.Location = new System.Drawing.Point(774, 2);
+            this.buttonReduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonReduct.Name = "buttonReduct";
+            this.buttonReduct.Size = new System.Drawing.Size(101, 46);
+            this.buttonReduct.TabIndex = 8;
+            this.buttonReduct.Text = "Создать модель";
+            this.buttonReduct.UseVisualStyleBackColor = true;
+            this.buttonReduct.Click += new System.EventHandler(this.buttonReduct_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -322,6 +335,7 @@
         private System.Windows.Forms.TextBox textBoxIteration;
         private System.Windows.Forms.Button buttonLoad;
         private System.Windows.Forms.Button buttonSave;
+        private System.Windows.Forms.Button buttonReduct;
     }
 }
 

@@ -124,6 +124,6 @@ namespace SocialModelRebuild.Core
         public double Scale = 1;
         public int PointRad = 3;
 
-        public bool DrawRed = true, DrawBlue = false, DrawWhite = true, DrawGrey = false;
+        public bool DrawRed = true, DrawBlue = true, DrawWhite = true, DrawGrey = true;
     }
 }

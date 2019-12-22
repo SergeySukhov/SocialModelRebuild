@@ -35,6 +35,7 @@ namespace SocialModelRebuild.Models
         public calculateOwnOpinion CalculateOwnOpinion;
 
         public List<IterationInfoCellModel> IterationInfoCellModels = new List<IterationInfoCellModel>();
+        public string FirstIter;
         //////////////////////////////////////
 
         public CellModel(int N)

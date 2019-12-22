@@ -20,10 +20,10 @@ namespace SocialModelRebuild.Libraries
             cellModel.SetupModel();
 
 
-            SetModelParams(cellModel, 35, 35, 0);
+            SetModelParams(cellModel, 35, 35, 30);
 
             cellModel.FindFriends(cellModel.MatrixCell, cellModel.LinkModel, cellModel.LeftBorder, cellModel.RightBorder);
-
+            cellModel.FirstIter = new SavingCellModel().SaveCellModel(cellModel);
             return cellModel;
         }
 

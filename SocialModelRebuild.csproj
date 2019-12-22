@@ -69,6 +69,12 @@
     <Compile Include="FormLoad.Designer.cs">
       <DependentUpon>FormLoad.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormReduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReduct.Designer.cs">
+      <DependentUpon>FormReduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSave.cs">
       <SubType>Form</SubType>
     </Compile>

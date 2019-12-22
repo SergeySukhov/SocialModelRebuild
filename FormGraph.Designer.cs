@@ -70,6 +70,8 @@
             // checkBoxBlue
             // 
             this.checkBoxBlue.AutoSize = true;
+            this.checkBoxBlue.Checked = true;
+            this.checkBoxBlue.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxBlue.Location = new System.Drawing.Point(13, 39);
             this.checkBoxBlue.Name = "checkBoxBlue";
             this.checkBoxBlue.Size = new System.Drawing.Size(71, 21);

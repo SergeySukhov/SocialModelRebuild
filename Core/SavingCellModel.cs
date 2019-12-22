@@ -60,6 +60,11 @@ namespace SocialModelRebuild.Models
             cellModel.CalculateOwnOpinion = CellCalculateOwnOpinionLibrary.CalculateOwnOpinionSimple;
             cellModel.FindFriends = CellFrinedsFindingLibrary.FindFriendsSimple;
 
+            if (cellModel.FirstIter == null)
+            {
+                cellModel.FirstIter = savingCellModel;
+            }
+
             return cellModel;
         }
 

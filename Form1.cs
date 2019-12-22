@@ -20,8 +20,6 @@ namespace SocialModelRebuild
 
         CellModel cellModel;
 
-        string FirstIter;
-
         FormGraph FormGraph;
 
         bool isRightMouseDown = false;
@@ -37,7 +35,7 @@ namespace SocialModelRebuild
 
             drawEngine = new DrawEngine();
             cellModel = CellModelLibrary.CreateCalssicModel(40);
-            this.FirstIter = new SavingCellModel().SaveCellModel(cellModel);
+
             LocateElems();
 
             this.MouseWheel += new MouseEventHandler(Form1_MouseWheel);
@@ -215,7 +213,7 @@ namespace SocialModelRebuild
             int iteration = 0;
             int.TryParse(textBoxIteration.Text, out iteration);
 
-            cellModel = new SavingCellModel().LoadCellModel(this.FirstIter); // CellModelLibrary.CreateCalssicModel(this.cellModel.N); // !!
+            cellModel = new SavingCellModel().LoadCellModel(cellModel.FirstIter); // CellModelLibrary.CreateCalssicModel(this.cellModel.N); // !!
 
             for (int i = 0; i < iteration; i++)
             {
@@ -228,7 +226,7 @@ namespace SocialModelRebuild
 
         private void buttonFirstIter_Click(object sender, EventArgs e)
         {
-            this.cellModel = new SavingCellModel().LoadCellModel(this.FirstIter);
+            this.cellModel = new SavingCellModel().LoadCellModel(cellModel.FirstIter);
 
             this.textBoxInfo.Text = cellModel.GetModelInfo();
             this.pictureBox1.Image = drawEngine.DrawCellField(cellModel, pictureBox1.Width, pictureBox1.Height);
@@ -257,6 +255,11 @@ namespace SocialModelRebuild
                 this.textBoxInfo.Text = cellModel.GetModelInfo();
             };
 
+
+        }
+
+        private void buttonReduct_Click(object sender, EventArgs e)
+        {
 
         }
     }
