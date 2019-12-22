@@ -8,6 +8,8 @@ namespace SocialModelRebuild.Models
 {
     public class CellModel
     {
+        public string Name = "";
+        public Guid Guid;
         public int N = 1;
         public int Iteration = 0;
         public int LinkModel = 1; // 0 - matrix, 1 - sphere, 2- vertical torus, 3 - vert + hor torus
@@ -38,6 +40,7 @@ namespace SocialModelRebuild.Models
         public CellModel(int N)
         {
             this.N = N;
+            this.Guid = Guid.NewGuid();
         }
 
         public void SetupModel()
@@ -61,6 +64,7 @@ namespace SocialModelRebuild.Models
 
         public void CellsPosition(int width, int betweenCells, int shiftX, int shiftY)
         {
+
             for (int i = 0; i < this.MatrixCell.Length; i++)
             {
                 for (int j = 0; j < MatrixCell[i].Length; j++)
@@ -127,8 +131,8 @@ namespace SocialModelRebuild.Models
                 $"Белых: {(int)(100 * whiteCells / AllCells.Count)}%" + Environment.NewLine +
                 Environment.NewLine +
                 $"Красного влияния: {(int)(100 * redU / UPotential)}% ({redU} из {UPotential})" + Environment.NewLine +
-                $"Синего влияния: {(int)(100 * blueU / UPotential)}% ({blueU} из {UPotential})" + Environment.NewLine
-                ;
+                $"Синего влияния: {(int)(100 * blueU / UPotential)}% ({blueU} из {UPotential})" + Environment.NewLine +
+                $"ID модели {this.Guid}";
             return resultInfo;
         }
 
