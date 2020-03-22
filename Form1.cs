@@ -34,8 +34,16 @@ namespace SocialModelRebuild
             InitializeComponent();
 
             drawEngine = new DrawEngine();
-            cellModel = CellModelLibrary.CreateCalssicModel(40);
 
+            // Выбираем модель из библиотеки
+
+            // cellModel = CellModelLibrary.CreateCalssicModel(40);
+
+            cellModel = CellModelLibrary.CreateSpecialModel();
+
+
+
+            // размещаем клетки для отрисовки
             LocateElems();
 
             this.MouseWheel += new MouseEventHandler(Form1_MouseWheel);
